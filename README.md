@@ -11,11 +11,14 @@
 </p>
 
 
-| Latest Stable Release | Upstream URL |
+| Latest Nightly Release | Upstream URL |
 | :---: | :---: |
 | [Click here](https://github.com/pkgforge-dev/Rednukem-AppImage/releases/latest) | [Click here](https://github.com/NBlood/NBlood) |
 
 </div>
+
+## ⚠️ Game assets go inside `~/.config/rednukem` ⚠️
+## ⚠️ To use soundfonts copy *.sf2 to same folder or `ln -s /usr/share/soundfonts/sfname.sf2 ~/.config/rednukem/sfname.sf2` ⚠️
 
 ---
 
