@@ -24,10 +24,10 @@ echo "Making nightly build of Rednukem..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/NBlood/NBlood"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
-git clone "$REPO" ./NBlood
+git clone "$REPO" ./Rednukem
 echo "$VERSION" > ~/version
 
-cd ./NBlood
+cd ./Rednukem
 make rednukem -j$(nproc)
 install -D -t /usr/bin rednukem
 install -D -t /usr/share/games/rednukem -m 644 dn64widescreen.pk3
