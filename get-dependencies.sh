@@ -30,5 +30,6 @@ echo "$VERSION" > ~/version
 cd ./Rednukem
 make rednukem -j$(nproc)
 mv -v rednukem /usr/bin
+mkdir -p /usr/share/games/rednukem
 mv -v dn64widescreen.pk3 /usr/share/games/rednukem
 cp -r source/blood/rsrc/game_icon.ico /usr/share/pixmaps/rednukem.ico
