@@ -29,7 +29,6 @@ echo "$VERSION" > ~/version
 
 cd ./Rednukem
 make rednukem -j$(nproc)
-install -D -t /usr/bin rednukem
-install -D -t /usr/share/games/rednukem -m 644 dn64widescreen.pk3
-install -D -t /usr/share/licenses/rednukem -m 644 package/common/buildlic.txt
-install -Dm644 source/blood/rsrc/game_icon.ico /usr/share/pixmaps/rednukem.ico
+mv -v /usr/bin rednukem
+mv -v /usr/share/games/rednukem -m 644 dn64widescreen.pk3
+cp -r source/blood/rsrc/game_icon.ico /usr/share/pixmaps/rednukem.ico
