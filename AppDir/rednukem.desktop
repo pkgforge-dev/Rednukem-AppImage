@@ -5,4 +5,5 @@ GenericName=Port of serveral BUILD Engine games based on EDuke32
 Icon=rednukem
 Exec=rednukem %F
 Terminal=false
+StartupWMClass=Rednukem
 Categories=Game;ActionGame;
