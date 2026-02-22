@@ -18,7 +18,7 @@
 </div>
 
 ## ⚠️ Game assets within `~/.config/rednukem` ⚠️
-## ⚠️ To use soundfonts copy *.sf2 to same folder or `ln -s /usr/share/soundfonts/sfname.sf2 ~/.config/rednukem/sfname.sf2` ⚠️
+## ⚠️ To use soundfonts copy *.sf2 to same directory or `ln -s /usr/share/soundfonts/sfname.sf2 ~/.config/rednukem/sfname.sf2` ⚠️
 
 ---
 
