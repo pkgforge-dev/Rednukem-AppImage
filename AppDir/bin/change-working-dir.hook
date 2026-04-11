@@ -1,0 +1,4 @@
+#!/bin/sh
+dir=$CONFIGDIR/rednukem
+mkdir -p "$dir"
+cd "$dir"
