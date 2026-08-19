@@ -16,7 +16,6 @@ echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano gtk2-mini
 
-# If the application needs to be manually built that has to be done down here
 echo "Making nightly build of Rednukem..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/NBlood/NBlood"
