@@ -16,7 +16,7 @@ echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano gtk2-mini
 
-echo "Making nightly build of Rednukem..."
+echo "Building Rednukem..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/NBlood/NBlood"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
