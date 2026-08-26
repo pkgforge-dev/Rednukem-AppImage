@@ -22,8 +22,7 @@ VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
 git clone "$REPO" ./Rednukem
 echo "$VERSION" > ~/version
 
+mkdir -p ./AppDir/bin
 cd ./Rednukem
 make rednukem -j$(nproc)
-mv -v rednukem /usr/bin
-mkdir -p /usr/share/games/rednukem
-mv -v dn64widescreen.pk3 /usr/share/games/rednukem
+mv -v rednukem dn64widescreen.pk3 ../AppDir/bin
