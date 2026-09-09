@@ -19,7 +19,7 @@ echo "Building Rednukem..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/NBlood/NBlood"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
-git clone "$REPO" ./Rednukem
+git clone --depth 1 "$REPO" ./Rednukem
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
